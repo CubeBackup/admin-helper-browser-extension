@@ -1,0 +1,27 @@
+{
+  "name": "CubeBackup Admin Helper",
+  "version": "1.0",
+  "description": "A tool help generate Google service account key file.",
+  "icons": { "128": "icon128.png" },
+  "permissions": [
+    "tabs",
+    "declarativeContent"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+   {
+     "matches": ["https://console.cloud.google.com/*"],
+     "css":["style.css"],
+     "js": ["jquery-3.3.1.min.js", "content.js"]
+   }
+  ],
+  "browser_action": {
+      "default_title": "CubeBackup Admin Helper",
+      "default_icon": "icon128.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
