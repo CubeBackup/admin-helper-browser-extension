@@ -678,7 +678,7 @@ function confirmGoogleAccount() {
                 createProject();
             });
             con.appendTo(detail);
-        }, 2000);
+        }, 500);
     }, function() {
         showError('confirmGoogleAccount() can\'t find the account drop menu button');
     });
