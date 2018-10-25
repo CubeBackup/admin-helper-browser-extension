@@ -4,8 +4,7 @@
   "description": "A tool help generate Google service account key file.",
   "icons": { "128": "icon128.png" },
   "permissions": [
-    "tabs",
-    "declarativeContent"
+    "tabs"
   ],
   "background": {
     "scripts": ["background.js"],

@@ -664,8 +664,8 @@ function confirmGoogleAccount() {
             html += '<div class="cubebackup-arrow-container">';
             html += '<div class="cubebackup-arrow-box" style="left:-770px;width:450px;">';
             html += '<h3 style="color:#fff;">';
-            html += 'Please confirm current Google account, <br />';
-            html += 'if it\'s not the account what you wanted, you can change or add account.';
+            html += 'Please confirm the current Google account, <br />';
+            html += 'if it\'s not the account what you wanted, you can select or add another account.';
             html += '</h3>';
             html += '<p><button>Generate Google service account key file</button></p>';
             html += '</div>';
