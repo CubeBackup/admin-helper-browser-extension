@@ -504,7 +504,7 @@ function createServiceAccount() {
 
         chrome.runtime.sendMessage({cmd: "getProjectId"}, function(projectId){
             if (getQueryParam('project') != projectId) {
-                showError('createServiceAccount() invalid project id ' + getQueryParam('project'));
+                showError('createServiceAccount() invalid project id ' + getQueryParam('project') + '!=' + projectId);
                 return;
             }
 
