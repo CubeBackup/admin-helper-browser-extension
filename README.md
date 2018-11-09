@@ -1,2 +1,3 @@
-# admin-helper-chrome-extension
-A chrome extension help generate Google service account key file.
+A browser extension help generate Google service account key file.
+
+Supported browsers: Chrome, Firefox.
