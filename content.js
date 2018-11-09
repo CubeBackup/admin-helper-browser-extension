@@ -228,7 +228,7 @@ function enableAPIs() {
 
     chrome.runtime.sendMessage({cmd: "getProjectId"}, function(projectId){
         if (getQueryParam('project') != projectId) {
-            showError('enableAPIs() invalid project id ' + getQueryParam('project'));
+            showError('enableAPIs() invalid project id ' + getQueryParam('project') + '!=' + projectId);
             return;
         }
 
